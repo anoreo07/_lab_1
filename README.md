@@ -120,6 +120,23 @@ Tất cả kiểm thử dùng `unittest.mock` — **không cần API key thật*
 
 
 
+## Giao diện Người dùng (UI)
+
+Lab này đi kèm với một giao diện Streamlit đơn giản để trải nghiệm chatbot và so sánh model trực quan hơn.
+
+### Cách chạy UI
+1. Đảm bảo đã cài đặt các thư viện cần thiết:
+   ```bash
+   pip install streamlit
+   ```
+2. Chạy ứng dụng:
+   ```bash
+   streamlit run app.py
+   ```
+3. Nhập OpenAI API Key ở thanh bên trái (sidebar) và bắt đầu sử dụng.
+
+---
+
 ## Danh Sách Kiểm Tra Nộp Bài
 
 - [ ] `pytest tests/ -v` — tất cả kiểm thử pass
